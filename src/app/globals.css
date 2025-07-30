@@ -6,6 +6,18 @@
   scroll-behavior: smooth;
 }
 
+/* globals.css or your main CSS file */
+html {
+  color-scheme: light;
+}
+
+/* Override any dark mode styles */
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: light;
+  }
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);

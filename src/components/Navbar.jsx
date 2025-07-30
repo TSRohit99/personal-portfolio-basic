@@ -66,7 +66,7 @@ const Navbar = () => {
         {/* Mobile Menu Overlay */}
         {isOpen && (
           <div className="md:hidden fixed inset-0 z-40 " onClick={toggleMenu}>
-            <div className="fixed top-24 left-4 right-4 bg-white rounded-2xl shadow-2xl p-6 animate-slideDown" onClick={(e) => e.stopPropagation()}>
+            <div className="fixed top-24 left-4 right-4 bg-white rounded-2xl shadow-2xl p-6 animate-slideDown mt-2" onClick={(e) => e.stopPropagation()}>
               <div className="flex flex-col space-y-4">
                 <a
                   href="#home"

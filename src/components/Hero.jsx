@@ -27,7 +27,7 @@ const Hero = () => {
             </a>
           </div>
           <div className="flex justify-center order-1 md:order-2">
-            <div className="w-96 h-96 rounded-full bg-blue-200 flex items-center justify-center shadow-lg">
+            <div className="w-auto h-auto rounded-full bg-blue-200 flex items-center justify-center shadow-2xl shadow-blue-800/50 p-1">
               <Image
                 src="/linkdinProfile.jpeg"
                 alt="Profile Picture"
